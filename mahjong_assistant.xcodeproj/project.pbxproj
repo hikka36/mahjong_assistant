@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4006175227F040112846F25F /* Pods_mahjong_assistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5D2CF0D63794FCC49359F7 /* Pods_mahjong_assistant.framework */; };
+		6B900F913165C8FF3E663FEB /* Pods_mahjong_assistantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A83623297EC4686A4D7CDC /* Pods_mahjong_assistantTests.framework */; };
 		910A22A22567BCA600FBC049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A22A12567BCA600FBC049 /* AppDelegate.swift */; };
 		910A22A42567BCA600FBC049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A22A32567BCA600FBC049 /* SceneDelegate.swift */; };
 		910A22A62567BCA600FBC049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A22A52567BCA600FBC049 /* ViewController.swift */; };
@@ -15,6 +17,12 @@
 		910A22AE2567BCA900FBC049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910A22AC2567BCA900FBC049 /* LaunchScreen.storyboard */; };
 		910A22B92567BCA900FBC049 /* mahjong_assistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A22B82567BCA900FBC049 /* mahjong_assistantTests.swift */; };
 		910A22C42567BCA900FBC049 /* mahjong_assistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A22C32567BCA900FBC049 /* mahjong_assistantUITests.swift */; };
+		910A22D52567C77100FBC049 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910A22D42567C77100FBC049 /* SecondViewController.swift */; };
+		91253A572573B7E9000FC4A8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91253A562573B7E9000FC4A8 /* ThirdViewController.swift */; };
+		91253A5F25753E48000FC4A8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91253A5E25753E48000FC4A8 /* SettingViewController.swift */; };
+		91253A6425753FB0000FC4A8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91253A6325753FB0000FC4A8 /* FirstViewController.swift */; };
+		916110172578F47000A5859D /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916110162578F47000A5859D /* player.swift */; };
+		D37F0AA3AB5BDE120F4B272B /* Pods_mahjong_assistant_mahjong_assistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FD5DFA191753AD393F02CA /* Pods_mahjong_assistant_mahjong_assistantUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F5D2CF0D63794FCC49359F7 /* Pods_mahjong_assistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mahjong_assistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A83623297EC4686A4D7CDC /* Pods_mahjong_assistantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mahjong_assistantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		291BEE53BE29DFCB8CDA2F74 /* Pods-mahjong_assistant-mahjong_assistantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistant-mahjong_assistantUITests.release.xcconfig"; path = "Target Support Files/Pods-mahjong_assistant-mahjong_assistantUITests/Pods-mahjong_assistant-mahjong_assistantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E564D7485797695F12FF45A /* Pods-mahjong_assistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistant.debug.xcconfig"; path = "Target Support Files/Pods-mahjong_assistant/Pods-mahjong_assistant.debug.xcconfig"; sourceTree = "<group>"; };
+		48FD5DFA191753AD393F02CA /* Pods_mahjong_assistant_mahjong_assistantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mahjong_assistant_mahjong_assistantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		586A42211693BC4FDFB1994A /* Pods-mahjong_assistantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistantTests.debug.xcconfig"; path = "Target Support Files/Pods-mahjong_assistantTests/Pods-mahjong_assistantTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BE9530F1166176F6A20A34C /* Pods-mahjong_assistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistant.release.xcconfig"; path = "Target Support Files/Pods-mahjong_assistant/Pods-mahjong_assistant.release.xcconfig"; sourceTree = "<group>"; };
 		910A229E2567BCA600FBC049 /* mahjong_assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mahjong_assistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		910A22A12567BCA600FBC049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		910A22A32567BCA600FBC049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,13 @@
 		910A22BF2567BCA900FBC049 /* mahjong_assistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mahjong_assistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910A22C32567BCA900FBC049 /* mahjong_assistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mahjong_assistantUITests.swift; sourceTree = "<group>"; };
 		910A22C52567BCA900FBC049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910A22D42567C77100FBC049 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		91253A562573B7E9000FC4A8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		91253A5E25753E48000FC4A8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		91253A6325753FB0000FC4A8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		916110162578F47000A5859D /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		B48FD6BC580EF7FFFCA83F39 /* Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig"; path = "Target Support Files/Pods-mahjong_assistant-mahjong_assistantUITests/Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5CEA520B82200A4DD74B6D3 /* Pods-mahjong_assistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistantTests.release.xcconfig"; path = "Target Support Files/Pods-mahjong_assistantTests/Pods-mahjong_assistantTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4006175227F040112846F25F /* Pods_mahjong_assistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B900F913165C8FF3E663FEB /* Pods_mahjong_assistantTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37F0AA3AB5BDE120F4B272B /* Pods_mahjong_assistant_mahjong_assistantUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DF391DA23CA4A9A078875A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F5D2CF0D63794FCC49359F7 /* Pods_mahjong_assistant.framework */,
+				48FD5DFA191753AD393F02CA /* Pods_mahjong_assistant_mahjong_assistantUITests.framework */,
+				25A83623297EC4686A4D7CDC /* Pods_mahjong_assistantTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		910A22952567BCA600FBC049 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				910A22B72567BCA900FBC049 /* mahjong_assistantTests */,
 				910A22C22567BCA900FBC049 /* mahjong_assistantUITests */,
 				910A229F2567BCA600FBC049 /* Products */,
+				C0E1144AF35D003C8FBBAB04 /* Pods */,
+				6DF391DA23CA4A9A078875A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +138,12 @@
 			children = (
 				910A22A12567BCA600FBC049 /* AppDelegate.swift */,
 				910A22A32567BCA600FBC049 /* SceneDelegate.swift */,
+				91253A6325753FB0000FC4A8 /* FirstViewController.swift */,
+				91253A5E25753E48000FC4A8 /* SettingViewController.swift */,
 				910A22A52567BCA600FBC049 /* ViewController.swift */,
+				916110162578F47000A5859D /* player.swift */,
+				910A22D42567C77100FBC049 /* SecondViewController.swift */,
+				91253A562573B7E9000FC4A8 /* ThirdViewController.swift */,
 				910A22A72567BCA600FBC049 /* Main.storyboard */,
 				910A22AA2567BCA900FBC049 /* Assets.xcassets */,
 				910A22AC2567BCA900FBC049 /* LaunchScreen.storyboard */,
@@ -128,6 +170,19 @@
 			path = mahjong_assistantUITests;
 			sourceTree = "<group>";
 		};
+		C0E1144AF35D003C8FBBAB04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E564D7485797695F12FF45A /* Pods-mahjong_assistant.debug.xcconfig */,
+				5BE9530F1166176F6A20A34C /* Pods-mahjong_assistant.release.xcconfig */,
+				B48FD6BC580EF7FFFCA83F39 /* Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig */,
+				291BEE53BE29DFCB8CDA2F74 /* Pods-mahjong_assistant-mahjong_assistantUITests.release.xcconfig */,
+				586A42211693BC4FDFB1994A /* Pods-mahjong_assistantTests.debug.xcconfig */,
+				D5CEA520B82200A4DD74B6D3 /* Pods-mahjong_assistantTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 910A22C82567BCA900FBC049 /* Build configuration list for PBXNativeTarget "mahjong_assistant" */;
 			buildPhases = (
+				6A733A360C26C74E970D50AF /* [CP] Check Pods Manifest.lock */,
 				910A229A2567BCA600FBC049 /* Sources */,
 				910A229B2567BCA600FBC049 /* Frameworks */,
 				910A229C2567BCA600FBC049 /* Resources */,
+				E900374FBD06AA2714C9E537 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 910A22CB2567BCA900FBC049 /* Build configuration list for PBXNativeTarget "mahjong_assistantTests" */;
 			buildPhases = (
+				663D309E716F3122EA9B0393 /* [CP] Check Pods Manifest.lock */,
 				910A22B02567BCA900FBC049 /* Sources */,
 				910A22B12567BCA900FBC049 /* Frameworks */,
 				910A22B22567BCA900FBC049 /* Resources */,
@@ -170,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 910A22CE2567BCA900FBC049 /* Build configuration list for PBXNativeTarget "mahjong_assistantUITests" */;
 			buildPhases = (
+				B83751572F29B8A8DB6C3158 /* [CP] Check Pods Manifest.lock */,
 				910A22BB2567BCA900FBC049 /* Sources */,
 				910A22BC2567BCA900FBC049 /* Frameworks */,
 				910A22BD2567BCA900FBC049 /* Resources */,
+				2C4C8533B6CC3FC7EA5A63F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +313,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4C8533B6CC3FC7EA5A63F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mahjong_assistant-mahjong_assistantUITests/Pods-mahjong_assistant-mahjong_assistantUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mahjong_assistant-mahjong_assistantUITests/Pods-mahjong_assistant-mahjong_assistantUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mahjong_assistant-mahjong_assistantUITests/Pods-mahjong_assistant-mahjong_assistantUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		663D309E716F3122EA9B0393 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mahjong_assistantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A733A360C26C74E970D50AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mahjong_assistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83751572F29B8A8DB6C3158 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mahjong_assistant-mahjong_assistantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E900374FBD06AA2714C9E537 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mahjong_assistant/Pods-mahjong_assistant-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mahjong_assistant/Pods-mahjong_assistant-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mahjong_assistant/Pods-mahjong_assistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		910A229A2567BCA600FBC049 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910A22D52567C77100FBC049 /* SecondViewController.swift in Sources */,
 				910A22A62567BCA600FBC049 /* ViewController.swift in Sources */,
+				91253A572573B7E9000FC4A8 /* ThirdViewController.swift in Sources */,
 				910A22A22567BCA600FBC049 /* AppDelegate.swift in Sources */,
+				916110172578F47000A5859D /* player.swift in Sources */,
 				910A22A42567BCA600FBC049 /* SceneDelegate.swift in Sources */,
+				91253A5F25753E48000FC4A8 /* SettingViewController.swift in Sources */,
+				91253A6425753FB0000FC4A8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,9 +537,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -424,8 +593,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -433,6 +604,7 @@
 		};
 		910A22C92567BCA900FBC049 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E564D7485797695F12FF45A /* Pods-mahjong_assistant.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +624,7 @@
 		};
 		910A22CA2567BCA900FBC049 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE9530F1166176F6A20A34C /* Pods-mahjong_assistant.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +644,7 @@
 		};
 		910A22CC2567BCA900FBC049 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586A42211693BC4FDFB1994A /* Pods-mahjong_assistantTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +667,7 @@
 		};
 		910A22CD2567BCA900FBC049 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CEA520B82200A4DD74B6D3 /* Pods-mahjong_assistantTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +690,7 @@
 		};
 		910A22CF2567BCA900FBC049 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48FD6BC580EF7FFFCA83F39 /* Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.hiraoka.hikka.mahjong-assistantUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = mahjong_assistant;
@@ -535,6 +712,7 @@
 		};
 		910A22D02567BCA900FBC049 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291BEE53BE29DFCB8CDA2F74 /* Pods-mahjong_assistant-mahjong_assistantUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +725,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.hiraoka.hikka.mahjong-assistantUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = mahjong_assistant;

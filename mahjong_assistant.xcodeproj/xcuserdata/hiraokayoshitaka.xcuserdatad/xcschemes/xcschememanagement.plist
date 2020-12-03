@@ -6,8 +6,28 @@
 	<dict>
 		<key>mahjong_assistant.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>910A229D2567BCA600FBC049</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>910A22B32567BCA900FBC049</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>910A22BE2567BCA900FBC049</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
