@@ -125,9 +125,6 @@
                         <viewLayoutGuide key="safeArea" id="aFq-CD-DfV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <segue destination="Dgn-me-5ID" kind="presentation" id="p2d-Uh-1oG"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1a-IT-Zj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -421,6 +418,7 @@
                                         </state>
                                         <connections>
                                             <action selector="horaButton" destination="Sx9-S6-sao" eventType="touchUpInside" id="165-HI-SyA"/>
+                                            <segue destination="Dgn-me-5ID" kind="presentation" id="6gR-KK-tEp"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2o-zO-XM5">

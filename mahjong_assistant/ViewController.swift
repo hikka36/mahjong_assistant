@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import RealmSwift
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -105,7 +104,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func count() {
         
         if yakunumber == 5 {
-            if
             score = 100 * honba + 8000
             Label.text = "満貫"
         } else if yakunumber >= 6 && yakunumber <= 7 {
@@ -142,7 +140,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func prepare(for segue: UIStoryboardSegue, sender: Any? ) {
         if segue.identifier == "toSecondViewController" {
             let secondViewController = segue.destination as! SecondViewController
-            secondViewController.okuraretascore = self.score
+            secondViewController.sentscore = self.score
         }
     }
 }

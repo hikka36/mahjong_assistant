@@ -27,7 +27,7 @@ class SecondViewController: UIViewController {
     @IBOutlet var stackview2: UIStackView!
     @IBOutlet var stackview3: UIStackView!
     @IBOutlet var stackview4: UIStackView!
-    var okuraretascore: Int = 0
+    var sentscore: Int = 0
     var player1: Int = 25000
     var player2: Int = 25000
     var player3: Int = 25000
@@ -67,11 +67,40 @@ class SecondViewController: UIViewController {
     }
     
     func count() {
+        player1 - sentscore
+        player1score.text = String(player1)
         
+        player2 + sentscore
+        player2score.text = String(player2)
     }
     
-    func
+    func count2() {
+        player1 + sentscore
+        player2 - (sentscore / 4)
+        player3 - (sentscore / 2)
+        player4 - (sentscore / 4)
+    }
+    
+    @IBAction func horaButton() {
+        let alert: UIAlertController = UIAlertController(title: "和了", message: "和了者の人数を選択", preferredStyle:  UIAlertControllerStyle.ActionSheet)
+        
+        let defaultAction_1: UIAlertAction = UIAlertAction(title: "1人が和了", style: UIAlertActionStyle.Default, handler:{
+            (action: UIAlertAction!) -> Void in
+        })
+        let defaultAction_2: UIAlertAction = UIAlertAction(title: "2人が和了", style: UIAlertActionStyle.Default, handler:{
+            (action: UIAlertAction!) -> Void in
+        })
+        let defaultAction_3: UIAlertAction = UIAlertAction(title: "3人が和了", style: UIAlertActionStyle.Default, handler:{
+            (action: UIAlertAction!) -> Void in
+        })
 
+        // Cancelボタン
+        let cancelAction: UIAlertAction = UIAlertAction(title: "キャンセル", style: UIAlertActionStyle.Cancel, handler:{
+            (action: UIAlertAction!) -> Void in
+        })
+    }
+
+    
     /*
     // MARK: - Navigation
 
