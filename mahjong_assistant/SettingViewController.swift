@@ -9,6 +9,10 @@ import UIKit
 
 class SettingViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var player1name: UITextField!
+    @IBOutlet weak var player2name: UITextField!
+    @IBOutlet weak var player3name: UITextField!
+    @IBOutlet weak var player4name: UITextField!
     @IBOutlet weak var tableView: UITableView!
     var ieArray = [String]()
 
@@ -45,6 +49,22 @@ class SettingViewController: UIViewController,UITableViewDelegate, UITableViewDa
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = "\(ieArray[indexPath.row])"
         return cell
+    }
+    
+    @IBAction func OKbutton() {
+        let playername = player()
+        playername.player1name = tableView[]
+        playername.player2name = tableView
+        playername.player3name = tableView
+        playername.player4name = tableView
+        
+        do{
+            let realm = try Realm()
+            try realm.write({ () -> Void in
+            realm.add(playername)
+            })
+        }catch{
+        }
     }
     
 }

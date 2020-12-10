@@ -10,14 +10,14 @@ import RealmSwift
 import Realm
 
 class player: Object {
-    dynamic var player1name = ""
-    dynamic var player2name = ""
-    dynamic var player3name = ""
-    dynamic var player4name = ""
-    dynamic var player1score: Int = 0
-    dynamic var player2score: Int = 0
-    dynamic var player3score: Int = 0
-    dynamic var player4score: Int = 0
+    @objc dynamic var player1name = ""
+    @objc dynamic var player2name = ""
+    @objc dynamic var player3name = ""
+    @objc dynamic var player4name = ""
+    @objc dynamic var player1score: Int = 0
+    @objc dynamic var player2score: Int = 0
+    @objc dynamic var player3score: Int = 0
+    @objc dynamic var player4score: Int = 0
     
 }
 

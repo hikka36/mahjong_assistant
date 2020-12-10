@@ -22,6 +22,8 @@
 		91253A5F25753E48000FC4A8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91253A5E25753E48000FC4A8 /* SettingViewController.swift */; };
 		91253A6425753FB0000FC4A8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91253A6325753FB0000FC4A8 /* FirstViewController.swift */; };
 		916110172578F47000A5859D /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916110162578F47000A5859D /* player.swift */; };
+		91A78E40258235900095832F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A78E3E258235900095832F /* TableViewCell.swift */; };
+		91A78E41258235900095832F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A78E3F258235900095832F /* TableViewCell.xib */; };
 		D37F0AA3AB5BDE120F4B272B /* Pods_mahjong_assistant_mahjong_assistantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FD5DFA191753AD393F02CA /* Pods_mahjong_assistant_mahjong_assistantUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		91253A5E25753E48000FC4A8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		91253A6325753FB0000FC4A8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		916110162578F47000A5859D /* player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		91A78E3E258235900095832F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		91A78E3F258235900095832F /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		B48FD6BC580EF7FFFCA83F39 /* Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig"; path = "Target Support Files/Pods-mahjong_assistant-mahjong_assistantUITests/Pods-mahjong_assistant-mahjong_assistantUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5CEA520B82200A4DD74B6D3 /* Pods-mahjong_assistantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mahjong_assistantTests.release.xcconfig"; path = "Target Support Files/Pods-mahjong_assistantTests/Pods-mahjong_assistantTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +144,8 @@
 				910A22A32567BCA600FBC049 /* SceneDelegate.swift */,
 				91253A6325753FB0000FC4A8 /* FirstViewController.swift */,
 				91253A5E25753E48000FC4A8 /* SettingViewController.swift */,
+				91A78E3E258235900095832F /* TableViewCell.swift */,
+				91A78E3F258235900095832F /* TableViewCell.xib */,
 				910A22A52567BCA600FBC049 /* ViewController.swift */,
 				916110162578F47000A5859D /* player.swift */,
 				910A22D42567C77100FBC049 /* SecondViewController.swift */,
@@ -292,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				910A22AE2567BCA900FBC049 /* LaunchScreen.storyboard in Resources */,
+				91A78E41258235900095832F /* TableViewCell.xib in Resources */,
 				910A22AB2567BCA900FBC049 /* Assets.xcassets in Resources */,
 				910A22A92567BCA600FBC049 /* Main.storyboard in Resources */,
 			);
@@ -424,6 +431,7 @@
 				910A22D52567C77100FBC049 /* SecondViewController.swift in Sources */,
 				910A22A62567BCA600FBC049 /* ViewController.swift in Sources */,
 				91253A572573B7E9000FC4A8 /* ThirdViewController.swift in Sources */,
+				91A78E40258235900095832F /* TableViewCell.swift in Sources */,
 				910A22A22567BCA600FBC049 /* AppDelegate.swift in Sources */,
 				916110172578F47000A5859D /* player.swift in Sources */,
 				910A22A42567BCA600FBC049 /* SceneDelegate.swift in Sources */,

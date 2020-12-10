@@ -477,7 +477,7 @@
                         <outlet property="stackview2" destination="e3G-7M-HjI" id="qGh-wQ-lpp"/>
                         <outlet property="stackview3" destination="5SP-Xb-GOj" id="enf-UH-6tm"/>
                         <outlet property="stackview4" destination="eRm-P1-D7F" id="dh3-i3-jR8"/>
-                        <segue destination="9WX-Rp-22m" kind="show" id="otc-XS-nCU"/>
+                        <segue destination="9WX-Rp-22m" kind="show" identifier="toResult" id="otc-XS-nCU"/>
                         <segue destination="sEE-jp-kOd" kind="presentation" identifier="toSettingView" id="XAk-8o-K8y"/>
                     </connections>
                 </viewController>
